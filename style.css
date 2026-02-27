@@ -1,0 +1,58 @@
+@charset "utf-8";
+html *{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(35,33,33);
+    background-color: rgb(238, 238, 240);
+}
+
+
+#main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    width: 80%;
+}
+
+.sidebar_sticky{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 900px;
+    padding:20px;
+}
+
+.author_avatar{
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+
+}
+
+.author_avatar_wrapper{
+    width: 100%;
+    margin: auto;
+}
+
+.author_content{
+    padding-left: 14px;
+}
+
+.name{
+    font-size: 2.4cqh;
+    margin-bottom: 5px;
+}
+
+.bio{
+    font-size: 1.6cqh;
+    margin-top: 5px;
+}
+
+.page{
+    padding:25px;
+    padding-top: 40px;
+}
+
+.page_inner{
+    padding-right:50px;
+}
