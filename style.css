@@ -45,15 +45,15 @@ a:hover{
     flex-direction: row;
     justify-content: center;
     margin: auto;
-    width: 80%;
+    width: 70%;
 }
 
 .sidebar_sticky{
     display: flex;
     flex-direction: column;
-    flex-basis: 70%;
+    flex-basis: 65%;
     max-width: 900px;
-    padding:20px;
+    padding:10px;
 }
 
 .author_avatar{
@@ -64,8 +64,10 @@ a:hover{
 }
 
 .author_avatar_wrapper{
-    flex-basis: 100%;
-    margin: auto;
+    width:100%;
+    max-width: 100%;
+    flex-basis:auto;
+    aspect-ratio: 1;
 }
 
 .author_content{
@@ -82,13 +84,23 @@ a:hover{
     margin-top: 5px;
 }
 
+.author_urls{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 21px;
+    list-style-type: none;
+    font-size: 13px;
+    letter-spacing: 0.1px;
+    padding: 10px;
+    margin: auto;
+}
+
+
+
 .page{
     padding:25px;
     padding-top: 40px;
-}
-
-.page_inner{
-    padding-right:90px;
 }
 
 .page_title{
@@ -99,7 +111,6 @@ a:hover{
 /* Projects List Styling */
 .project_archive{
     padding: 25px;
-    padding-right: 90px;
 }
 
 .project_contents{
@@ -112,6 +123,7 @@ a:hover{
 }
 .project_image{
     width: 100%;
+    min-width: 100px;
     border-radius: 5%;
 }
 
@@ -121,11 +133,14 @@ a:hover{
 
 
 /* queries */
-@media(max-width: 575px){
+@media(max-width: 700px){
     #main{
         flex-direction: column;
     }
     .sidebar_sticky{
         flex-direction: row;
+    }
+    .project_contents{
+        flex-direction: column;
     }
 }
