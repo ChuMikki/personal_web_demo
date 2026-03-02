@@ -261,13 +261,15 @@ a:hover{
     .project_contents{
         flex-direction: column;
     }
-    .author_urls{
-        display:none;
-    }
     .author_avatar_wrapper{
         max-width: 20vw;
         max-height: 20vw;
+        padding: 10px;
+        padding-right: 15px;
         margin: auto;
+    }
+    .author_urls{
+        flex-direction: row;
     }
 }
 @media (pointer:none), (pointer:coarse) {
@@ -283,12 +285,13 @@ a:hover{
     .project_contents{
         flex-direction: column;
     }
-    .author_urls{
-        display:none;
-    }
     .author_avatar_wrapper{
         max-width: 12vw;
         max-height: 12vw;
         margin: auto;
+        padding-right: 15px;
+    }
+    .author_urls{
+        flex-direction: row;
     }
 }
