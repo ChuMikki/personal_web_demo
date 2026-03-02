@@ -256,16 +256,19 @@ a:hover{
     }
     .sidebar_sticky{
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: flex-start;
+        margin: auto;
+        align-items: center;
+        padding-right: 50px;
     }
     .project_contents{
         flex-direction: column;
     }
     .author_avatar_wrapper{
-        max-width: 20vw;
-        max-height: 20vw;
-        padding-right: 15px;
+        max-width: 12vw;
+        max-height: 12vw;
         margin: auto;
+        padding-right: 15px;
     }
     .author_urls{
         flex-direction: row;
@@ -280,6 +283,7 @@ a:hover{
         justify-content: flex-start;
         margin: auto;
         align-items: center;
+        padding-right: 50px;
     }
     .project_contents{
         flex-direction: column;
