@@ -139,6 +139,7 @@ a:hover{
 }
 .project_image{
     width: 100%;
+    max-width: 30vw;
     min-width: 100px;
     border-radius: 5%;
 }
@@ -275,7 +276,7 @@ a:hover{
     }
     .sidebar_sticky{
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: center;
     }
     .project_contents{
         flex-direction: column;
@@ -284,8 +285,8 @@ a:hover{
         display:none;
     }
     .author_avatar_wrapper{
-        max-width: 20vw;
-        max-height: 20vw;
+        max-width: 17vw;
+        max-height: 17vw;
         margin: auto;
     }
 }
