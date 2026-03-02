@@ -134,12 +134,12 @@ a:hover{
 }
 .project_image_wrapper{
     flex-basis: 100%;
+    max-width: 30vw;
     margin: auto;
     padding: 20px;
 }
 .project_image{
     width: 100%;
-    max-width: 30vw;
     min-width: 100px;
     border-radius: 5%;
 }
@@ -276,7 +276,9 @@ a:hover{
     }
     .sidebar_sticky{
         flex-direction: row;
-        justify-content: center;
+        justify-content: flex-start;
+        margin: auto;
+        align-items: center;
     }
     .project_contents{
         flex-direction: column;
@@ -285,8 +287,8 @@ a:hover{
         display:none;
     }
     .author_avatar_wrapper{
-        max-width: 17vw;
-        max-height: 17vw;
+        max-width: 12vw;
+        max-height: 12vw;
         margin: auto;
     }
 }
