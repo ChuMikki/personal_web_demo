@@ -147,8 +147,61 @@ a:hover{
     color: rgb(104, 104, 104);
 }
 
+.project_item_title{
+    margin-top: 50px;
+}
+
 .project_descriptor{
     font-size: 18px;
+}
+
+/* other */
+.other_wrapper{
+    width: 95%;
+    padding: 10px;
+    margin: auto;
+}
+
+.other_notes{
+    font-size: 15px;
+    color:rgb(111, 111, 111);
+    text-align: center;
+}
+
+.other_grid{
+    width: 100%;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%;
+}
+
+.grid_item{
+    padding:3px;
+}
+
+.grid_img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#gi1{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+#gi2{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+#gi3{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
 }
 
 
