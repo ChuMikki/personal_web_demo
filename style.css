@@ -269,3 +269,23 @@ a:hover{
         margin: auto;
     }
 }
+@media (pointer:none), (pointer:coarse) {
+    #main{
+        flex-direction: column;
+    }
+    .sidebar_sticky{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .project_contents{
+        flex-direction: column;
+    }
+    .author_urls{
+        display:none;
+    }
+    .author_avatar_wrapper{
+        max-width: 20vw;
+        max-height: 20vw;
+        margin: auto;
+    }
+}
